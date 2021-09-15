@@ -1,0 +1,18 @@
+{
+	"name": "grpc-nodejs-healthcheck",
+	"version": "1.0.0",
+	"description": "gRPC Node.js Kubernetes health check demo",
+	"main": "server.js",
+	"author": "naingoted@gmail.com",
+	"license": "MIT",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"@grpc/grpc-js": "^1.3.7",
+		"@grpc/proto-loader": "^0.6.2",
+		"axios": "^0.21.1",
+		"grpc": "^1.24.10",
+		"grpc-health-check": "^1.8.0"
+	}
+}
